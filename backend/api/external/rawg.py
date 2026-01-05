@@ -1,7 +1,7 @@
 import json
 import httpx
 from typing import List, Optional
-from ..schemas.game import ExternalGame
+from ...schemas.game import ExternalGame
 from ...config import settings
 
 async def search_rawg(query: str) -> List[ExternalGame]:

@@ -1,5 +1,6 @@
 from sqlalchemy import Column, Integer, String, Text, Float
 from ..database import Base
+from sqlalchemy.orm import relationship
 
 class Film(Base):
     __tablename__ = "films"

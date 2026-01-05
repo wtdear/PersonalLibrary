@@ -1,7 +1,7 @@
 import json
 import httpx
 from typing import List, Optional
-from ..schemas.film import ExternalFilm
+from ...schemas.film import ExternalFilm
 from ...config import settings
 
 async def search_tmdb(query: str) -> List[ExternalFilm]:

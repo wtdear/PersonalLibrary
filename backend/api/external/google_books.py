@@ -1,7 +1,8 @@
 import json
 import httpx
 from typing import List, Optional
-from ..schemas.book import ExternalBook
+from ...schemas.book import ExternalBook
+
 from ...config import settings
 
 async def search_google_books(query: str) -> List[ExternalBook]:
