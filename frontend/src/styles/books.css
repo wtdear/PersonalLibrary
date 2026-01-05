@@ -1,0 +1,101 @@
+.character {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    background: linear-gradient(135deg, #333f50 0%, #26253a 100%);
+    border: 3px  solid rgba(136, 136, 136, 0.5);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards {
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.books h1 {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+    margin-bottom: -10px;
+}
+
+.books h5 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.book {
+    display: flex;
+    min-height: 20vh;
+    width: 200px;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background: linear-gradient(135deg, #6f73ad 0%, #3a74d1 100%);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+.book:hover {
+    transform: scale(1.02);
+}
+
+.book .name {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book .author {
+    font-size: 15px;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+
+
+.character select, .character .btn {
+    text-align: center;
+    width: 200px;
+    background: linear-gradient(135deg, #6f73ad 0%, #3a74d1 100%);
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+.character .btn {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.character .btn:hover {
+    transform: translateX(2px);
+}
