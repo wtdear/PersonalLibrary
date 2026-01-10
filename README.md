@@ -4,4 +4,4 @@ the main idea of this project is to create a website with 'wishlists' for differ
 everidiy (frontend) - https://github.com/everidiy
 and me) (backend) - https://github.com/wtdear
 ## About Project
-the website should help you create 'wishlists', that's about it)
+the website should help you create 'wishlists', that's about it
